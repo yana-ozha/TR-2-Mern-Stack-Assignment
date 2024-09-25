@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern Printer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+
+            margin-top: 50px;
+        }
+
+        pre {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Asterisk Pattern</h1>
+    <pre id="pattern"></pre>
+
+    <script>
+        function printPattern(rows) {
+            let pattern = '';
+            for (let i = 1; i <= rows; i++) {
+                for (let j = 1; j <= i; j++) {
+                    pattern += '*';
+                }
+                pattern += '\n';
+            }
+            document.getElementById('pattern').innerText = pattern;
+        }
+        printPattern(50);
+    </script>
+
+</body>
+
+</html>
