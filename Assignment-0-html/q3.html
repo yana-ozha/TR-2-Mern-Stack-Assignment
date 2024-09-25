@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .profile-picture {
+            flex-basis: 30%;
+            text-align: center;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            border-radius: 30%;
+            border: 5px solid #ddd;
+        }
+
+        .profile-details {
+            flex-basis: 65%;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-details h2 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .profile-details p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+        }
+
+        .education, .interests {
+            margin-top: 20px;
+        }
+
+        .education h3, .interests h3 {
+            font-size: 1.6rem;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .education ul, .interests ul {
+            list-style: none;
+        }
+
+        .education ul li, .interests ul li {
+            font-size: 1.1rem;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: #f4f4f9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>YANA OZHA</h1>
+        <p>Web Developer | Designer | Enthusiast</p>
+    </header>
+
+    <!-- Main Section -->
+    <section>
+        <div class="container">
+            
+            <!-- Profile Picture -->
+            <div class="profile-picture">
+                <img src="WhatsApp Image 2024-09-06 at 9.05.48 PM.jpeg" alt="Profile Picture">
+            </div>
+
+            <!-- Profile Details -->
+            <div class="profile-details">
+                <h2>About Me</h2>
+                <p>Hello! I'm YANA OZHA, a passionate web developer and designer with an eye for modern design and functional web applications. I love exploring new technologies and improving user experiences. Let's connect and create something amazing!</p>
+
+                <!-- Interests Section -->
+                <div class="interests">
+                    <h3>Interests</h3>
+                    <ul>
+                        <li>Web Development</li>
+                        <li>UI/UX Design</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Photography</li>
+                        <li>Travelling</li>
+                    </ul>
+                </div>
+
+                <!-- Education Section -->
+                <div class="education">
+                    <h3>Education</h3>
+                    <ul>
+                        <li><strong>Bachelor of Technology (B.Tech) - Computer Science</strong><br>Techno India Njr Institute of Technology, 2022 - 2026</li>
+                        <li><strong>Higher Secondary Certificate (HSC)</strong><br>St. Paul's Hr. Sec. School Sirohi, 2021-2022</li>
+                        <li><strong>Secondary School Certificate (SSC)</strong><br>St. Paul's Hr. Sec. School Sirohi, 2019 - 2020</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Find me on <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> | <a href="https://github.com" target="_blank">GitHub</a></p>
+    </footer>
+
+</body>
+</html>
