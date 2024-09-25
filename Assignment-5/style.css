@@ -1,0 +1,28 @@
+.hidden {
+    display: none;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 5px 0;
+}
+
+button {
+    margin-top: 10px;
+}
+
+input {
+    display: block;
+    margin: 5px 0;
+}

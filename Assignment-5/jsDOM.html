@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Task 1: Change Paragraph Text -->
+    <h2>Task 1: Change Paragraph Text</h2>
+    <p id="para">This is a paragraph.</p>
+    <button onclick="changeText()">Change Text</button>
+    <br><br><hr><br>
+    <!-- Task 2: Hover to Change Background Color -->
+    <h2>Task 2: Hover to Change Background Color</h2>
+    <div id="colorBox" class="box">Hover over me!</div>
+    <br><br><hr><br>
+    <!-- Task 3: Add List Item -->
+    <h2>Task 3: Add List Item</h2>
+    <ul id="itemList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+    <button onclick="addListItem()">Add Item</button>
+    <br><br><hr><br>
+    <!-- Task 4: Remove List Item -->
+    <h2>Task 4: Remove List Item</h2>
+    <ul id="removableList">
+        <li>Item A <button onclick="removeItem(this)">Remove</button></li>
+        <li>Item B <button onclick="removeItem(this)">Remove</button></li>
+    </ul>
+    <br><br><hr><br>
+    <!-- Task 5: Simple Form Submission -->
+    <h2>Task 5: Form Submission</h2>
+    <form id="userForm" onsubmit="submitForm(event)">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+    <br><br><hr><br>
+    <!-- Task 6: Show Alert on Button Click -->
+    <h2>Task 6: Show Alert on Button Click</h2>
+    <button id="alertButton">Show Alert</button>
+    <br><br><hr><br>
+    <!-- Task 7: Toggle Hidden Class -->
+    <h2>Task 7: Toggle Hidden Class</h2>
+    <p id="toggleText" class="hidden">This is hidden text.</p>
+    <button onclick="toggleVisibility()">Toggle Visibility</button>
+    <br><br><hr><br>
+    <!-- Task 8: Display Input Value -->
+    <h2>Task 8: Display Input Value</h2>
+    <input type="text" id="inputField" placeholder="Enter text">
+    <button onclick="displayInputValue()">Display Value</button>
+    <p id="displayArea"></p>
+    <br><br><hr><br>
+    <!-- Task 9: Display innerHTML and textContent -->
+    <h2>Task 9: Display innerHTML and textContent</h2>
+    <div id="htmlContent">
+        <strong>Hello, World!</strong> This is a <em>test</em>.
+    </div>
+    <button onclick="displayContent()">Show Content</button>
+    <p id="htmlResult"></p>
+    <p id="textResult"></p>
+    <br><br><hr><br>
+    <!-- Task 10: Display Current Time -->
+    <h2>Task 10: Display Current Time</h2>
+    <p id="timeDisplay"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
